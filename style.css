@@ -14,12 +14,21 @@ body {
     margin-bottom: 1in;
 }
 
-p {
+.intro {
     text-align: center;
-    font-size:  20px;
+    font-size:  25px;
 }
 
 .image {
-    width: 1000px;
+    width:max-content;
+    align-content: center;
+}
+.moto {
+    width: 350px;
+    align-content: flex-end;
+    float: left;
+}
+p {
     text-align: center;
+    font-size: 25px;
 }
